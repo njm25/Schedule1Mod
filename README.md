@@ -1,4 +1,4 @@
-# Schedule 1 Hello World Mod
+# Schedule 1 Mod
 
 A simple BepInEx mod for Schedule 1 that displays a "Hello World" message in the console.
 
