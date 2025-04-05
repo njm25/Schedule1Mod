@@ -14,4 +14,3 @@ REM Copy the DLL to the plugins directory
 copy /Y "%PROJ_DIR%\bin\Debug\net8.0\%DLL_NAME%" "%GAME_DIR%\BepInEx\plugins"
 
 echo Deployment complete!
-pause 
