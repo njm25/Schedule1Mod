@@ -1,4 +1,4 @@
-# Schedule 1 Hello World Mod
+# Schedule 1 Mod
 
 ## Prerequisites
 
@@ -37,23 +37,3 @@ Run the deployment script to build the mod and copy it to your game's BepInEx pl
 1. Launch Schedule 1
 2. The mod will automatically load in the BepInEx console
 3. Check the BepInEx console logs to confirm the mod has loaded successfully
-
----
-
-## Development
-
-- `Main.cs` contains the BepInEx plugin code
-- Edit the plugin to add more functionality
-- Use the deployment script to quickly test your changes
-
----
-
-## Reverse Engineering
-
-To develop on top of the game, you'll need to understand the game's internal structure:
-
-1. Dump the game's IL2CPP code using Il2CppDumper
-2. Analyze the game's classes and methods with dnSpy
-3. Use the discovered class structures to interact with the game
-
-See [REVERSING.md](REVERSING.md) for a detailed guide on how to dump and analyze the game code.
