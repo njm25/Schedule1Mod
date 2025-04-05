@@ -6,8 +6,6 @@
 - Schedule 1 game
 - [BepInEx IL2CPP](https://github.com/BepInEx/BepInEx)
 
----
-
 ## Setup
 
 1. Install [BepInEx IL2CPP](https://github.com/BepInEx/BepInEx) into your Schedule 1 game folder
@@ -20,8 +18,6 @@
    ```
    Replace the paths with your actual game and project directories.
 
----
-
 ## Building and Deploying
 
 Run the deployment script to build the mod and copy it to your game's BepInEx plugins folder:
@@ -29,8 +25,6 @@ Run the deployment script to build the mod and copy it to your game's BepInEx pl
 ```
 .\deploy.bat
 ```
-
----
 
 ## Running the Mod
 

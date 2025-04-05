@@ -8,8 +8,6 @@
 - [Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
 - [dnSpy](https://github.com/dnSpy/dnSpy/releases)
 
----
-
 ## Step 1: Dump the Game Metadata
 
 1. Download and extract Il2CppDumper
@@ -22,16 +20,12 @@
 4. Choose auto mode when prompted
 5. After successful dumping, a `DummyDll/` folder will be created. It contains stub DLLs with reconstructed class and method definitions.
 
----
-
 ## Step 2: Inspect with dnSpy
 
 1. Download and open dnSpy
 2. Drag and drop the DLLs from `DummyDll/` into the Assembly Explorer panel
 3. Browse the namespaces and classes to find method signatures and structures
 4. You can inspect method names, parameters, return types, and class hierarchies
-
----
 
 ## Which DLLs Contain Game Logic?
 
@@ -46,8 +40,6 @@ Other useful DLLs:
 
 Ignore the following:
 - `mscorlib.dll`, `System.*.dll`, `UnityEngine.*.dll` — these are engine/system references, not game logic
-
----
 
 ## Finding Relevant Methods
 
