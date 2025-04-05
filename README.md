@@ -1,7 +1,5 @@
 # Schedule 1 Mod
 
-A simple BepInEx mod for Schedule 1 that displays a "Hello World" message in the console.
-
 ## Prerequisites
 
 1. [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
